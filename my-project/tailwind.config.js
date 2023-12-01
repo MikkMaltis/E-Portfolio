@@ -10,7 +10,8 @@ module.exports = {
       }
     },
     colors: {
-      color1: '#10B981',
+      color1: '#a83266',
+      color2: '#66a832',
     }
   },
   plugins: [],
