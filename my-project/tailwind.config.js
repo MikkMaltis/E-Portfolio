@@ -7,11 +7,13 @@ module.exports = {
     extend: {
       fontFamily: {
         Prompt: ['Prompt', 'sans-serif'],
+        Cabin: ['Cabin', 'sans-serif'],
       }
     },
     colors: {
       color1: '#a83266',
       color2: '#66a832',
+      color3: '#5dbea3',
     }
   },
   plugins: [],

@@ -3,6 +3,10 @@ import Logo from '../media/Logo.png';
 import Home from '../media/Home/Home.png';
 import Info from '../media/Info/Info.png';
 import Projects from '../media/Projects/Projects.png';
+import Mail from '../media/Mail/icons8-mail-100.png';
+import Facebook from '../media/Facebook/icons8-facebook-100.png';
+import LinkedIn from '../media/LinkedIn/icons8-linkedin-500.png';
+import Github from '../media/Github/icons8-github-500.png';
 
 
 const Header = () => {
@@ -40,7 +44,28 @@ const Header = () => {
 
             {/* MobileMenu */}
 
+            {/* Socials */}
+            <div className='flex fixed flex-col top-[35%] left-0 pl-2 mt-6'>
+                <ul>
+                    <li>
+                        <a href='#'>
+                           <img className="w-12 mb-2" src={Mail}/> 
+                        </a>
+                        
+                        <a href="#">
+                            <img className="w-12 mb-2" src={Facebook}/>
+                        </a>
 
+                        <a href="#">
+                            <img className="w-12 mb-2" src={LinkedIn}/>
+                        </a>
+
+                        <a href="#">
+                            <img className="w-12 mb-2" src={Github}/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 }
