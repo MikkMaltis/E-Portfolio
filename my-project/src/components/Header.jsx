@@ -52,15 +52,15 @@ const Header = () => {
                            <img className="w-12 mb-2" src={Mail}/> 
                         </a>
                         
-                        <a href="#">
+                        <a href="https://www.facebook.com/p/Mikk-Maltis-100009786704562/" target="_blank" rel="noopener noreferrer">
                             <img className="w-12 mb-2" src={Facebook}/>
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/mikk-maltis-132742268/?originalSubdomain=ee" target="_blank" rel="noopener noreferrer">
                             <img className="w-12 mb-2" src={LinkedIn}/>
                         </a>
 
-                        <a href="#">
+                        <a href="https://github.com/MikkMaltis" target="_blank" rel="noopener noreferrer">
                             <img className="w-12 mb-2" src={Github}/>
                         </a>
                     </li>
