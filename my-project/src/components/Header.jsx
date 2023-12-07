@@ -10,7 +10,7 @@ import Github from '../media/Github/icons8-github-500.png';
 
 const Header = () => {
     return (
-        <div className="w-full h-[80px] px-6 flex justify-between items-center bg-color1 text-gray-100">
+        <div className="w-full h-[80px] px-6 flex justify-between items-center bg-color1 text-[#f3f4f6] font-Cabin">
             <div className="w-52 h-full flex items-center">
                 <a href="">
                     <img src={Logo} alt="logo" />
@@ -23,7 +23,9 @@ const Header = () => {
                         <a href="">
                             <img className="pr-2 h-5" src={Home} alt="" />
                         </a>
-                        <a href="">Home</a>
+                        <a className='' href="">  
+                            Home
+                        </a>
                     </li>
                     <li className="pl-12 flex items-center">
                         <a href="">

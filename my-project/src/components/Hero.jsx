@@ -15,8 +15,11 @@ function Hero() {
                 </div>
             </div>
             <div className='flex justify-end w-full pr-4'>
-                <div className="bg-color5 h-[650px] w-[485px]">
+                <div className="bg-color5 h-[650px] w-[485px] relative overflow-hidden bg-cover bg-no-repeat">
                     <img src={MyPicture} alt="" />
+                </div>
+                <div>
+                    
                 </div>
             </div>
 
