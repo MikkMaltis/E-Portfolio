@@ -8,7 +8,6 @@ import Facebook from '../media/Facebook/icons8-facebook-100.png';
 import LinkedIn from '../media/LinkedIn/icons8-linkedin-500.png';
 import Github from '../media/Github/icons8-github-500.png';
 
-
 const Header = () => {
     return (
         <div className="w-full h-[80px] px-6 flex justify-between items-center bg-color1 text-gray-100">

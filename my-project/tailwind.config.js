@@ -14,6 +14,10 @@ module.exports = {
       color1: '#a83266',
       color2: '#66a832',
       color3: '#5dbea3',
+      color4: '#000',
+      color5: '#ebebeb',
+      color6: '#fff',
+      color7: '#2563EB',
     }
   },
   plugins: [],
