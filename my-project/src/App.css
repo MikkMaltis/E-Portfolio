@@ -13,3 +13,16 @@
 #dark .main {
     background-color: #1d1d1d;
 }
+
+.switch {
+    width: 100vw;
+    height: 100px;
+}
+
+#light .switch label {
+    background-color: black;
+}
+
+#dark .switch label {
+    background-color: white;
+}

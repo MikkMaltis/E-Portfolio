@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import Logo from '../media/Logo.png';
 import Home from '../media/Home/Home.png';
 import Info from '../media/Info/Info.png';
@@ -7,8 +7,11 @@ import Mail from '../media/Mail/icons8-mail-100.png';
 import Facebook from '../media/Facebook/icons8-facebook-100.png';
 import LinkedIn from '../media/LinkedIn/icons8-linkedin-500.png';
 import Github from '../media/Github/icons8-github-500.png';
+import ReactSwitch from "react-switch";
+import { ThemeContext } from '../App';
 
 const Header = () => {
+    const { theme, toggleTheme } = useContext(ThemeContext);
     return (
         <div className="w-full h-[80px] px-6 flex justify-between items-center bg-color1 text-[#f3f4f6] font-Cabin">
             <div className="w-52 h-full flex items-center">
@@ -20,6 +23,10 @@ const Header = () => {
             <div>
                 <ul className="flex place-items-center hidden md:flex">
                     <li className="flex items-center">
+                        <div className='flex gap-4 place-items-center pr-4'>
+                            <label> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
+                            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+                        </div>
                         <a href="">
                             <img className="pr-2 h-5" src={Home} alt="" />
                         </a>
