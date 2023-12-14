@@ -1,0 +1,15 @@
+#light {
+    background-color: white;
+}
+
+#dark {
+    background-color: rgb(15, 15, 15)
+}
+
+#light .main {
+    background-color: #fff;
+}
+
+#dark .main {
+    background-color: #1d1d1d;
+}
