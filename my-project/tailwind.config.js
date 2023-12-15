@@ -32,6 +32,7 @@ module.exports = {
       color6: '#fff',
       color7: '#2563EB',
       color8: '#f3f4f6',
+      color9: '#aaaaaa',
     }
   },
   plugins: [],

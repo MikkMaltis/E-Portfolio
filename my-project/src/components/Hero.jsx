@@ -4,7 +4,7 @@ import MyPicture from '../media/MyPicture/Mikupoiss.jpg';
 function Hero() {
     return (
         <div className="w-full px-6 py-12 flex justify-start font-Cabin">
-            <div className="rounded-2xl p-8 w-96 ml-28 bg-color5">
+            <div className="rounded-2xl p-8 w-96 ml-28 bg-color9">
                 <h1 className="text-4xl text-center">Hello, I am Mikk.<br /> <br /> Im a web developer.</h1>
                 <div className="flex justify-center">
                     <a href="mailto:maltismikk@gmail.com">
