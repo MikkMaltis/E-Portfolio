@@ -57,7 +57,7 @@ const Header = () => {
                 <div className='h-full rounded-2xl bg-color6'>
                     <ul>
                         <li>
-                            <a href='#'>
+                            <a href="mailto:maltismikk@gmail.com">
                                 <img className="w-12 mb-2" src={Mail}/> 
                             </a>
                         
