@@ -13,7 +13,7 @@ import { ThemeContext } from '../App';
 const Header = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
-        <div className="w-full h-[80px] px-6 flex justify-between items-center bg-color1 text-[#f3f4f6] font-Cabin">
+        <div className="w-full h-[80px] px-6 flex justify-between items-center bg-[#3B60E4] text-[#f3f4f6] font-Kanit">
             <div className="w-52 h-full flex items-center">
                 <a href="">
                     <img src={Logo} alt="logo" />
