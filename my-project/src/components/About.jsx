@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const About = () => {
   return (
     <div id="about" className='w-full px-6 py-12 flex justify-center items-center font-Cabin text-[#f3f4f6]'>

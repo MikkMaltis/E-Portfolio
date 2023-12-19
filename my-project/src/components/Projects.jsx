@@ -11,25 +11,25 @@ const Projects = () => {
         <h1 className="text-6xl py-6 px-6 text-color4 col-span-2 font-Kanit rounded-2xl">
           Projects
           <hr className='border-2 mt-3 mx-8 text-color4 opacity-10'/>
-          </h1>
+        </h1>
         <div>
-          <a href="https://github.com/MikkMaltis/2023-9.20.2023-projekt">
+          <a href="https://github.com/MikkMaltis/2023-9.20.2023-projekt" className="hover:underline hover:text-blue-500">
             <h1 className='text-2xl'>SorteeriJAMA group project</h1>
-            <img className='border-color4 border-2 px-2 py-2 rounded-3xl' src={Sorteerijama} alt="" />
+            <img className='border-color4 border-2 px-2 py-2 rounded-3xl hover:opacity-75' src={Sorteerijama} alt="" />
           </a>
         </div>
         <div>
-          <a href="https://github.com/MikkMaltis/Tailwind-website-with-templates">
+          <a href="https://github.com/MikkMaltis/Tailwind-website-with-templates" className="hover:underline hover:text-blue-500">
             <h1 className='text-2xl'>Tailwind student company template page</h1>
-            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Tailwind} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl hover:opacity-75' src={Tailwind} alt="" />
           </a>
-          <a href="https://github.com/MikkMaltis/Ai-startup-tool">
+          <a href="https://github.com/MikkMaltis/Ai-startup-tool" className="hover:underline hover:text-blue-500">
             <h1 className='mt-4 text-2xl'>AI startup tool template page</h1>
-            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Aistartuptools} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl hover:opacity-75' src={Aistartuptools} alt="" />
           </a>
-          <a href="https://github.com/MikkMaltis/Apple">
+          <a href="https://github.com/MikkMaltis/Apple" className="hover:underline hover:text-blue-500">
             <h1 className='mt-4 text-2xl'>Apple copy website</h1>
-            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Apple} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl hover:opacity-75' src={Apple} alt="" />
           </a>
         </div>
       </div>
