@@ -64,3 +64,11 @@
     -webkit-background-clip: text;
     transform: translateX(-0.02em);
   }
+
+  .preserve3d {
+    transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}

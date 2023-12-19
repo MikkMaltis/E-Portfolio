@@ -18,7 +18,7 @@ const Projects = () => {
         <div>
           <a href="https://github.com/MikkMaltis/Tailwind-website-with-templates">
             <h1 className='text-2xl'>Tailwind student company template page</h1>
-            <img className=' border-color4 border-2 px-4 py-4 rounded-3xl' src={Tailwind} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Tailwind} alt="" />
           </a>
           <a href="https://github.com/MikkMaltis/Ai-startup-tool">
             <h1 className='mt-4 text-2xl'>AI startup tool template page</h1>

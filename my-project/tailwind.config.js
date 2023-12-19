@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      rotate: ['group-hover'],
       fontFamily: {
         Prompt: ['Prompt', 'sans-serif'],
         Cabin: ['Cabin', 'sans-serif'],
