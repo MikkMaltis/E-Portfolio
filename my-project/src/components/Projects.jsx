@@ -12,21 +12,21 @@ const Projects = () => {
         <div>
           <a href="https://github.com/MikkMaltis/2023-9.20.2023-projekt">
             <h1 className='text-2xl'>SorteeriJAMA group project</h1>
-            <img className='border-color4 border-2 px-2 py-2 rounded-2xl' src={Sorteerijama} alt="" />
+            <img className='border-color4 border-2 px-2 py-2 rounded-3xl' src={Sorteerijama} alt="" />
           </a>
         </div>
         <div>
           <a href="https://github.com/MikkMaltis/Tailwind-website-with-templates">
             <h1 className='text-2xl'>Tailwind student company template page</h1>
-            <img className=' border-color4 border-2 px-4 py-4 rounded-2xl' src={Tailwind} alt="" />
+            <img className=' border-color4 border-2 px-4 py-4 rounded-3xl' src={Tailwind} alt="" />
           </a>
           <a href="https://github.com/MikkMaltis/Ai-startup-tool">
             <h1 className='mt-4 text-2xl'>AI startup tool template page</h1>
-            <img className='border-color4 border-2 px-4 py-4 rounded-2xl' src={Aistartuptools} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Aistartuptools} alt="" />
           </a>
           <a href="https://github.com/MikkMaltis/Apple">
             <h1 className='mt-4 text-2xl'>Apple copy website</h1>
-            <img className='border-color4 border-2 px-4 py-4 rounded-2xl' src={Apple} alt="" />
+            <img className='border-color4 border-2 px-4 py-4 rounded-3xl' src={Apple} alt="" />
           </a>
         </div>
       </div>
