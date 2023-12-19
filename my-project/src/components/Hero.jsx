@@ -20,9 +20,9 @@ function Hero() {
                 <div className='group'>
                     <div className="bg-color5 h-[625px] w-[485px] relative overflow-hidden rounded-2xl transition-all duration-500 [transition-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                         <img className='object-cover shadow-xl w-full h-full' src={MyPicture} alt="" />
-                    </div>
-                    <div className='absolute inset-0 h-full w-full rounded-xl bg-color4/80 text-center text-color5 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
-                        Hello! <br /> Welcome to my portfolio.
+                        <div className='absolute inset-0 h-full w-full rounded-xl bg-color4/50 text-center text-color5 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                            Hello! <br /> Welcome to my portfolio.
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ import Apple from '../media/Apple.png';
 
 const Projects = () => {
   return (
-    <div className='px-6 py-12 flex justify-center items-center font-Cabin text-[#f3f4f6]'>
+    <div id="projects" className='px-6 py-12 flex justify-center items-center font-Cabin text-[#f3f4f6]'>
       <div className='bg-[#E4BF3B] rounded py-6 px-6 rounded-2xl text-center grid grid-cols-2 gap-4 place-items-center mx-20 max-w-5xl'>
         <h1 className="text-6xl py-6 px-6 text-color4 col-span-2 font-Kanit border-color4 border-2 rounded-2xl">Projects</h1>
         <div>
