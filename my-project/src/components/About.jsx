@@ -10,7 +10,12 @@ const About = () => {
           </div>
 
         <div className="flex justify-center">
-          <p className="text-center text-2xl font-Kanit leading-10 my-6">I am a 17 year old web developer from Estonia. I have been doing web development for about 1 and half year now. I have worked with React, TailwindCSS, HTML, CSS, JavaScript, Node.js, Express.js, Python, PHP, SQL, MariaDB, Git and GitHub. I am currently studying at the Kuressaare Regional Training Centre, where I am studying software development.</p>
+          <p className="text-center text-3xl font-Kanit leading-10 my-6">I am a 17 year old web developer from Estonia. I have been doing web development for about 1 and half year now. I have worked with React, TailwindCSS, HTML, CSS, JavaScript, Node.js, Express.js, Python, PHP, SQL, MariaDB, Git and GitHub. I am currently studying at the Kuressaare Regional Training Centre, where I am studying software/web development.</p>
+          <button className=''>
+            <span className='relative z-10'>
+              Here's my CV.
+            </span>
+          </button>
         </div>
       </div>
     </div>
