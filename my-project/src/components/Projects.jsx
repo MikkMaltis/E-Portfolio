@@ -8,7 +8,10 @@ const Projects = () => {
   return (
     <div id="projects" className='px-6 py-12 flex justify-center items-center font-Cabin text-[#f3f4f6]'>
       <div className='bg-[#E4BF3B] rounded py-6 px-6 rounded-2xl text-center grid grid-cols-2 gap-4 place-items-center mx-20 max-w-5xl'>
-        <h1 className="text-6xl py-6 px-6 text-color4 col-span-2 font-Kanit border-color4 border-2 rounded-2xl">Projects</h1>
+        <h1 className="text-6xl py-6 px-6 text-color4 col-span-2 font-Kanit rounded-2xl">
+          Projects
+          <hr className='border-2 mt-3 mx-8 text-color4 opacity-10'/>
+          </h1>
         <div>
           <a href="https://github.com/MikkMaltis/2023-9.20.2023-projekt">
             <h1 className='text-2xl'>SorteeriJAMA group project</h1>
