@@ -13,24 +13,24 @@ import { ThemeContext } from '../App';
 const Header = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
-        <div className="w-full h-[80px] px-6 flex justify-between items-center bg-[#3B60E4] text-[#f3f4f6] font-Kanit">
+        <div className="w-full h-[80px] sm:px-6 lg:px-8 px-6 flex justify-between items-center bg-[#3B60E4] text-[#f3f4f6] font-Kanit">
             <div className="w-52 h-full flex items-center">
                 <a href="">
                     <img src={Logo} alt="logo" />
                 </a>
             </div>
             {/* Menu */}
-            <div>
-                <ul className="flex place-items-center hidden md:flex">
+            <div className="hidden md:flex">
+                <ul className="flex place-items-center">
                     <li className="flex items-center">
-                        <div className='flex gap-4 place-items-center pr-4'>
+                        <div className='flex gap-4 place-items-center pr-5'>
                             <label> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
                             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
                         </div>
                         <a href="">
                             <img className="pr-2 h-5" src={Home} alt="" />
                         </a>
-                        <a href="#home">  
+                        <a className='uppercase' href="#home">  
                             Home
                         </a>
                     </li>
@@ -38,22 +38,27 @@ const Header = () => {
                         <a href="">
                             <img className="pr-2 h-5" src={Info} alt="" />
                         </a>
-                        <a href="#about">About</a>
+                        <a className='uppercase' href="#about">
+                            About
+                        </a>
                     </li>
                     <li className="pl-12 pr-6 flex items-center">
                         <a href="">
                         <img className="pr-2 h-5" src={Projects} alt="" />
                         </a>
-                        <a href="#projects">Projects</a>
+                        <a className='uppercase' href="#projects">
+                            Projects
+                        </a>
                     </li>
                 </ul>
             </div>
             {/* BurgerMenu */}
-
+                {/* Your burger menu code goes here */}
             {/* MobileMenu */}
 
+            {/* Your mobile menu code goes here */}
             {/* Socials */}
-            <div className='flex fixed flex-col top-[35%] left-0 pl-2 mt-6'>
+            <div className='flex fixed flex-col top-[35%] left-0 pl-2 mt-6 hidden lg:block'>
                 <div className='h-full rounded-2xl bg-color6'>
                     <ul>
                         <li>
