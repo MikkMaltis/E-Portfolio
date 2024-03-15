@@ -30,7 +30,7 @@ const Header = () => {
                         <a href="">
                             <img className="pr-2 h-5" src={Home} alt="" />
                         </a>
-                        <a className='uppercase' href="#home">  
+                        <a href="#home">  
                             Home
                         </a>
                     </li>
@@ -38,7 +38,7 @@ const Header = () => {
                         <a href="">
                             <img className="pr-2 h-5" src={Info} alt="" />
                         </a>
-                        <a className='uppercase' href="#about">
+                        <a href="#about">
                             About
                         </a>
                     </li>
@@ -46,7 +46,7 @@ const Header = () => {
                         <a href="">
                         <img className="pr-2 h-5" src={Projects} alt="" />
                         </a>
-                        <a className='uppercase' href="#projects">
+                        <a href="#projects">
                             Projects
                         </a>
                     </li>
