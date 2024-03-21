@@ -72,3 +72,14 @@
 .backface-hidden {
   backface-visibility: hidden;
 }
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .responsive-img {
+      width: 50%;
+  }
+}
